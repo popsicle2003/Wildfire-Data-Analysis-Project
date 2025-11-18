@@ -1,2 +1,25 @@
+# Add typical DS ignores + your big files
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Envs & build
+.venv/
+venv/
+env/
+dist/
+build/
+
+# Data (ignore large/raw – keep folder structure with .gitkeep)
+data/
+!data/.gitkeep
+
+# Specific large files
 data.csv
 data.sqlite
